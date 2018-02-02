@@ -1,6 +1,20 @@
-/*=====MENU=====*/
+html, body{
+	background-color: whitesmoke;
+	height: 100%;
+}
+.search{
+	margin-top: 15%;
+}
+form{
+	text-align: center;
+}
 
+footer{
+	height: 10%;
+	background-color:white;
+	border-top: #DFDFDF 1px  solid;
+}
 
-
-/*=====SEARCH BAR=====*/
-
+#main{
+	height: 90%;
+}
