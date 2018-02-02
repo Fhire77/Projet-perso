@@ -1,45 +1,6 @@
-html{
-	height: 100%;
-	padding-top: -25px;
-}
-body{
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
+/*=====MENU=====*/
 
-.container{
-	display: flex;
-	align-items: stretch;
-	height: 100%;
-}
 
-aside{
-	margin: 0;
-	padding: 0;
-	width: 20%;
-	background-color: darkslategray;
-}
 
-aside>ul{
-	text-align: center;
-	padding-left: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: space-around;
-}
-aside>ul>li:first-child{
-	padding-top:0;
-}
+/*=====SEARCH BAR=====*/
 
-aside>ul>li{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: solid white .1px;
-	list-style: none;
-}
-
-aside>ul>li>a{
-	text-decoration: none;
-	color: white;
-}
