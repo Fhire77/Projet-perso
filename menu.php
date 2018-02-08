@@ -1,4 +1,4 @@
-<aside class="list-group" id="menu">
+<aside class="list-group" >
 	
 	<a class="list-group-item list-group-item-action" href="index.php">Partie en cours</a>
 	<a class="list-group-item list-group-item-action" href="#">Informations du joueur</a>

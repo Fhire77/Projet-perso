@@ -1,7 +1,7 @@
-<form action="index.php" class="search row">
+<form action="index.php" class="search row" id="search">
 
-	<input type="text" name="search" id="search" placeholder="Summoner's Name" class="form-control col-lg-10">
-	<select name="region" id="region" class="col-lg-1">
+	<input type="text" name="search" id="search_bar" placeholder="Summoner's Name" class="form-control">
+	<select name="region" id="region">
 		<option value="NA">NA</option>
 		<option value="EUW">EUW</option>
 		<option value="KR">KR</option>

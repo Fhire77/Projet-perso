@@ -2,8 +2,8 @@ html, body{
 	background-color: whitesmoke;
 	height: 100%;
 }
-.search{
-	margin-top: 15%;
+#search{
+	width: 70%;
 }
 form{
 	text-align: center;
@@ -15,6 +15,16 @@ footer{
 	border-top: #DFDFDF 1px  solid;
 }
 
-#main{
+#conteneur{
+	display: flex;
 	height: 90%;
+
+}
+
+#menu{
+	display: flex;
+	flex-direction: column;
+	align-content: stretch;
+	height: 90%;
+	width: 30%;
 }
