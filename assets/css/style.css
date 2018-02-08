@@ -1,45 +1,20 @@
-html{
-	height: 100%;
-	padding-top: -25px;
-}
-body{
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-.container{
-	display: flex;
-	align-items: stretch;
+html, body{
+	background-color: whitesmoke;
 	height: 100%;
 }
-
-aside{
-	margin: 0;
-	padding: 0;
-	width: 20%;
-	background-color: darkslategray;
+.search{
+	margin-top: 15%;
 }
-
-aside>ul{
+form{
 	text-align: center;
-	padding-left: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: space-around;
-}
-aside>ul>li:first-child{
-	padding-top:0;
 }
 
-aside>ul>li{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: solid white .1px;
-	list-style: none;
+footer{
+	height: 10%;
+	background-color:white;
+	border-top: #DFDFDF 1px  solid;
 }
 
-aside>ul>li>a{
-	text-decoration: none;
-	color: white;
+#main{
+	height: 90%;
 }
